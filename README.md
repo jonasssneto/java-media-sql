@@ -9,7 +9,7 @@ CREATE DATABASE escola;
 use escola;
 
 CREATE TABLE alunos (
-	id INT auto_increment primary key,
+    id INT auto_increment primary key,
     nome VARCHAR(100),
     idade int,
     curso VARCHAR(100)
