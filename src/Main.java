@@ -12,7 +12,7 @@ public class Main {
 
             Statement stmt = conn.createStatement();
 
-            String query = "select distinct idade from alunos;";
+            String query = "select idade from alunos;";
             ResultSet rs = stmt.executeQuery(query);
 
             ArrayList<Integer> idades = new ArrayList<>();
